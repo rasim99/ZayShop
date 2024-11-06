@@ -25,7 +25,7 @@
 					<td class="text-gray-500">$@product.Price</td>
 					<td class="text-gray-500">@product.Category.Name</td> 
 					<td class="text-gray-500 text-center " style="transform:translateY(20px);">
-						<a class="btn btn-primary" asp-controller="Category" asp-action="Update" asp-route-id="@product.Id">Update</a>
+						<a class="btn btn-primary" asp-controller="Product" asp-action="Update" asp-route-id="@product.Id">Update</a>
 						<form class="d-inline"  method="post"  asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id">
 							<button type="submit" class="btn btn-outline-danger">Delete</button>
 						</form>
