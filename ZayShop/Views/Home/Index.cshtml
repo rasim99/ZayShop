@@ -1,4 +1,9 @@
-﻿    <!-- Modal -->
+﻿@using ZayShop.Models.Home
+    @model HomeIndexVM
+@{
+    int index = 0;
+}
+<!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="w-100 pt-1 mb-5 text-right">
@@ -25,7 +30,31 @@
             <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+
+            @foreach (var slider in Model.Sliders)
+        {
+            <div class="carousel-item @(index==0 ? "active":"")">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="@slider.PhotoPath" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                               @Html.Raw(slider.Name)
+                               @Html.Raw(slider.Title)
+                               @Html.Raw(slider.Description)
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            index++;
+        }
+
+
+           @*  <div class="carousel-item active">
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
@@ -46,8 +75,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </div> *@
+          @*   <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
@@ -65,8 +94,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </div> *@
+           @*  <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
@@ -84,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> *@
         </div>
         <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
             <i class="fas fa-chevron-left"></i>
