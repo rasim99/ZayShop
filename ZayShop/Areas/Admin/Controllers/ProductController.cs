@@ -54,12 +54,12 @@ namespace ZayShop.Areas.Admin.Controllers
             }).ToList();
 
 			if (!ModelState.IsValid) return View(model);
-            var product = _context.Products.FirstOrDefault(p=>p.Title.ToLower()==model.Title.ToLower());
-            if (product is not null) 
-            {
-                ModelState.AddModelError("Title","Already Exists");
-                return View(model);
-            }
+            //var product = _context.Products.FirstOrDefault(p=>p.Title.ToLower()==model.Title.ToLower());
+            //if (product is not null) 
+            //{
+            //    ModelState.AddModelError("Title","Already Exists");
+            //    return View(model);
+            //}
             var category = _context.Categories.Find(model.CategoryId);
             if (category is null)
             {
@@ -67,7 +67,7 @@ namespace ZayShop.Areas.Admin.Controllers
                 return View(model);
             }
 
-            product = new Entities.Product  
+            var product = new Entities.Product  
             {
                 Title = model.Title,
                 PhotoPath = model.PhotoPath,
@@ -130,12 +130,12 @@ namespace ZayShop.Areas.Admin.Controllers
 
             var product = _context.Products.Find(id);
             if (product is null) return NotFound();
-            var existProduct=_context.Products.Any(p => p.Title == model.Title &&p.Id!=product.Id);
-            if (existProduct)
-            {
-                ModelState.AddModelError("Title", "Already exists");
-                return View(model);
-            }
+            //var existProduct=_context.Products.Any(p => p.Title == model.Title &&p.Id!=product.Id);
+            //if (existProduct)
+            //{
+            //    ModelState.AddModelError("Title", "Already exists");
+            //    return View(model);
+            //}
             var category=_context.Categories.Find(model.CategoryId);
             if (category is null)
             {

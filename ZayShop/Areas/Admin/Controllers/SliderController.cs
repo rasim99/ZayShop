@@ -61,6 +61,8 @@ namespace ZayShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Update(int id)
         {
+            ViewBag.PageName = "Slider";
+
             var slider = _context.Sliders.Find(id);
             if (slider is null) return NotFound();
             var model = new SliderUpdateVM
