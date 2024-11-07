@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Entities\\Slider.cs",
-              "RelativeDocumentMoniker": "ZayShop\\Entities\\Slider.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Entities\\Slider.cs",
-              "RelativeToolTip": "ZayShop\\Entities\\Slider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:31:11.344Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ZayShop\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ZayShop\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAACMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T10:04:41.885Z",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "ZayShop\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "ZayShop\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwGYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:20:16.3Z",
               "EditorCaption": ""
             }
           ]

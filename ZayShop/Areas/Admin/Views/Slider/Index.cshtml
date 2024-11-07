@@ -1,0 +1,51 @@
+﻿@using ZayShop.Areas.Admin.Models.Slider
+@model SliderIndexVM
+
+<!-- Categories Table -->
+@if (Model.Sliders.Count != 0)
+{
+
+    <div class="card  shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary"> Category Table</h6>
+        </div>
+        <div class="card-body  text-center">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th class="text-success">Photo</th>
+                            <th class="text-success">Name</th>
+                            <th class="text-success">Title</th>
+                            <th class="text-success">Create Date</th>
+                            <th class="text-success">Modified Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var slider in Model.Sliders)
+                        {
+                            <tr> <td class="text-gray-500 w-25"><img style="width:50%;  height:100px; border-radius:5px; object-fit:cover" src="@slider.PhotoPath" title="Photo" /></td>
+                                <td class="text-gray-500 w-75">@slider.Name</td>
+                                <td class="text-gray-500 w-75">@slider.Title</td>
+                                <td class="text-gray-500 w-75">@slider.CretaAt.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td class="text-gray-500 w-75">@slider.ModifiedAt?.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td class=" d-flex justify-content-center">
+                                    <a class="btn btn-primary" asp-controller="Slider" asp-action="Update" asp-route-id="@slider.Id">Update</a>
+                                    <form method="post" style="margin-left:20px" asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id">
+                                        <button type="submit" class="btn btn-outline-danger">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h3 class=" text-center text-danger">Not found any Category</h3>
+}

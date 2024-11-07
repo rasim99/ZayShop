@@ -32,6 +32,7 @@ namespace ZayShop.Areas.Admin.Controllers
         [HttpGet]
         public ActionResult Create() 
         {
+            ViewBag.PageName = "Product";
             var model = new ProductCreateVM
             {
                 Categories = _context.Categories.Select(c=>new SelectListItem
@@ -97,6 +98,8 @@ namespace ZayShop.Areas.Admin.Controllers
 		[HttpGet]
         public IActionResult Update(int id)
         {
+            ViewBag.PageName = "Product";
+
             var product = _context.Products.Find(id);
             if (product is null) return NotFound();
             var model = new ProductUpdateVM

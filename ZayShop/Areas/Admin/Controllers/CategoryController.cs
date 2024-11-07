@@ -34,7 +34,7 @@ namespace ZayShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-			ViewBag.PageName = "Category - Create";
+			ViewBag.PageName = "Category";
 			return View();
         }
 
@@ -59,6 +59,7 @@ namespace ZayShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Update(int id)
         {
+            ViewBag.PageName = "Category";
             var category = _context.Categories.Find(id);
             if (category is  null) return NotFound();
             var model = new CategoryUpdateVM { Name = category.Name };

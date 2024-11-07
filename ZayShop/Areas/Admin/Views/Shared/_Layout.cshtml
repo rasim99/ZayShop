@@ -53,10 +53,6 @@
 			</li>
 
 		
-
-			
-
-
 			<!-- Nav Item - Pages Collapse Menu -->
 			<li class="nav-item">
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
@@ -68,6 +64,7 @@
 					<div class="bg-white py-2 collapse-inner rounded">
 						<a class="collapse-item" asp-controller="Category" asp-action="Index">Categories</a>
 						<a class="collapse-item" asp-controller="Product" asp-action="Index">Products</a>
+						<a class="collapse-item" asp-controller="Slider" asp-action="Index">Sliders</a>
 					</div>
 				</div>
 			</li>
@@ -124,6 +121,10 @@
 					else if(ViewBag.isProductController==true && ViewBag.isIndexAction==true)
 					{
 						<a class="nav-link" asp-controller="Product" asp-action="Create"> <p style="padding:20px; font-size:20px;">✅</p> </a>
+					}
+					else if(ViewBag.isSliderController==true && ViewBag.isIndexAction==true)
+					{
+						<a class="nav-link" asp-controller="Slider" asp-action="Create"> <p style="padding:20px; font-size:20px;">✔️</p> </a>
 					}
 					else
 					{
