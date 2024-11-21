@@ -33138,12 +33138,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\css\templatemo.min.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\05b3ef33-e471-4323-8420-1e93bac34441_shop_09.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\10a95236-275a-478e-a031-25b00693d1fb_shop_09.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ZayShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/05b3ef33-e471-4323-8420-1e93bac34441_shop_09.jpg</RelativePath>
+      <RelativePath>StaticFiles/assets/img/10a95236-275a-478e-a031-25b00693d1fb_shop_09.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33154,122 +33154,32 @@
       <Integrity>fvdwEOjMgMc2vSNtPLuPfGIkgad+tBxnh4KXowGfzM4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\05b3ef33-e471-4323-8420-1e93bac34441_shop_09.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\10a95236-275a-478e-a031-25b00693d1fb_shop_09.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\299ba694-a317-4551-8509-a657b81c1bc9_shop_06.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\176eb9e0-5dae-46ce-91b5-dc558c4219b3_shop_05.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ZayShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/299ba694-a317-4551-8509-a657b81c1bc9_shop_06.jpg</RelativePath>
+      <RelativePath>StaticFiles/assets/img/176eb9e0-5dae-46ce-91b5-dc558c4219b3_shop_05.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x8sd2djtyh</Fingerprint>
-      <Integrity>QdaYT1JnoBoHLLt6ITTwn8tAcDTqL0817PbhONSVAm4=</Integrity>
+      <Fingerprint>pcu4giouzk</Fingerprint>
+      <Integrity>V/W6Y7qGVtioQpak/xZKRb/r33qdD0R63cQcSK71hg0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\299ba694-a317-4551-8509-a657b81c1bc9_shop_06.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\176eb9e0-5dae-46ce-91b5-dc558c4219b3_shop_05.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\3ad987f7-0a39-467f-8cb1-52fcbd8963c2_shop_02.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ZayShop</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/3ad987f7-0a39-467f-8cb1-52fcbd8963c2_shop_02.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1ksaz842ug</Fingerprint>
-      <Integrity>EZLU93MYdlxiHnnjf3pdGx6JCq88iDBVhUtSQYtThiY=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\3ad987f7-0a39-467f-8cb1-52fcbd8963c2_shop_02.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\3d04bdd5-515f-4a70-9e1d-10f3f4452f8f_shop_07.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ZayShop</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/3d04bdd5-515f-4a70-9e1d-10f3f4452f8f_shop_07.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c4z75ednha</Fingerprint>
-      <Integrity>dKWA5lc423HwwDVsCEoSkPSEcqQS95P+Ubuh3kOdT64=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\3d04bdd5-515f-4a70-9e1d-10f3f4452f8f_shop_07.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\3d4d1450-acc3-4f49-af15-3a6c2a90c93e_shop_04.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ZayShop</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/3d4d1450-acc3-4f49-af15-3a6c2a90c93e_shop_04.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nkob5gjw7q</Fingerprint>
-      <Integrity>2RmYN6cHpz+1sNGq2A21qW5mTKY46fldGl5zw1FIaZU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\3d4d1450-acc3-4f49-af15-3a6c2a90c93e_shop_04.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\50c31798-e28e-4a9d-a914-0b44bc625607_shop_07.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ZayShop</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/50c31798-e28e-4a9d-a914-0b44bc625607_shop_07.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c4z75ednha</Fingerprint>
-      <Integrity>dKWA5lc423HwwDVsCEoSkPSEcqQS95P+Ubuh3kOdT64=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\50c31798-e28e-4a9d-a914-0b44bc625607_shop_07.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\6583aaad-a9fb-4dbb-8a4e-8051d146cf2d_shop_08.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ZayShop</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/6583aaad-a9fb-4dbb-8a4e-8051d146cf2d_shop_08.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d8q4k664jb</Fingerprint>
-      <Integrity>M9bJ5cyNcJfXJWOePEW61JlY260PY98b76revXaN8mo=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\6583aaad-a9fb-4dbb-8a4e-8051d146cf2d_shop_08.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\82a8d006-892a-4fa7-bb24-9b7a5d9b8f91_shop_03.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ZayShop</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/82a8d006-892a-4fa7-bb24-9b7a5d9b8f91_shop_03.jpg</RelativePath>
+      <RelativePath>StaticFiles/assets/img/1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33280,7 +33190,79 @@
       <Integrity>O/iNjheGtLGbEpu1V+E5wz4yXDnMd/9DIGPptkXLMvo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\82a8d006-892a-4fa7-bb24-9b7a5d9b8f91_shop_03.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ZayShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ZayShop</BasePath>
+      <RelativePath>StaticFiles/assets/img/35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d8q4k664jb</Fingerprint>
+      <Integrity>M9bJ5cyNcJfXJWOePEW61JlY260PY98b76revXaN8mo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\671e284b-fb55-4a65-8f7e-15353fe8b704_shop_02.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ZayShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ZayShop</BasePath>
+      <RelativePath>StaticFiles/assets/img/671e284b-fb55-4a65-8f7e-15353fe8b704_shop_02.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1ksaz842ug</Fingerprint>
+      <Integrity>EZLU93MYdlxiHnnjf3pdGx6JCq88iDBVhUtSQYtThiY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\671e284b-fb55-4a65-8f7e-15353fe8b704_shop_02.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\725a0b0a-2750-4466-b1a8-6cdda27cc749_shop_06.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ZayShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ZayShop</BasePath>
+      <RelativePath>StaticFiles/assets/img/725a0b0a-2750-4466-b1a8-6cdda27cc749_shop_06.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x8sd2djtyh</Fingerprint>
+      <Integrity>QdaYT1JnoBoHLLt6ITTwn8tAcDTqL0817PbhONSVAm4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\725a0b0a-2750-4466-b1a8-6cdda27cc749_shop_06.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ZayShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ZayShop</BasePath>
+      <RelativePath>StaticFiles/assets/img/728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nkob5gjw7q</Fingerprint>
+      <Integrity>2RmYN6cHpz+1sNGq2A21qW5mTKY46fldGl5zw1FIaZU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\about-hero.svg'))">
       <SourceType>Package</SourceType>
@@ -33336,6 +33318,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\apple-icon.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ZayShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ZayShop</BasePath>
+      <RelativePath>StaticFiles/assets/img/b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3d26owt17a</Fingerprint>
+      <Integrity>d/lxeG3df25Ebav4ymWQ1cZ6xeTYStzUJlAlwaesyyc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\banner_img_01.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ZayShop</SourceId>
@@ -33389,6 +33389,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\banner_img_03.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\bde45560-849c-4657-a66f-f8d5edda886b_shop_07.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ZayShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ZayShop</BasePath>
+      <RelativePath>StaticFiles/assets/img/bde45560-849c-4657-a66f-f8d5edda886b_shop_07.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c4z75ednha</Fingerprint>
+      <Integrity>dKWA5lc423HwwDVsCEoSkPSEcqQS95P+Ubuh3kOdT64=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\bde45560-849c-4657-a66f-f8d5edda886b_shop_07.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\brand_01.png'))">
       <SourceType>Package</SourceType>
@@ -33515,24 +33533,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\category_img_03.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\eb1a1f38-56d6-4b67-b0e2-9ac1f0f2b236_shop_05.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ZayShop</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ZayShop</BasePath>
-      <RelativePath>StaticFiles/assets/img/eb1a1f38-56d6-4b67-b0e2-9ac1f0f2b236_shop_05.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pcu4giouzk</Fingerprint>
-      <Integrity>V/W6Y7qGVtioQpak/xZKRb/r33qdD0R63cQcSK71hg0=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\eb1a1f38-56d6-4b67-b0e2-9ac1f0f2b236_shop_05.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\favicon.ico'))">
       <SourceType>Package</SourceType>

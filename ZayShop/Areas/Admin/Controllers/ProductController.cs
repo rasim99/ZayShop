@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ZayShop.Areas.Admin.Models.Product;
 using ZayShop.Data;
+using ZayShop.Utilities.File;
 
 namespace ZayShop.Areas.Admin.Controllers
 {
@@ -11,12 +12,12 @@ namespace ZayShop.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IFileService _fileService;
 
-        public ProductController(AppDbContext context,IWebHostEnvironment webHostEnvironment)
+        public ProductController(AppDbContext context,IFileService fileService)
         {
             _context = context;
-            _webHostEnvironment = webHostEnvironment;
+            _fileService = fileService;
         }
 
         #region List
@@ -58,12 +59,6 @@ namespace ZayShop.Areas.Admin.Controllers
 
             if (!ModelState.IsValid) return View(model);
 
-            //var product = _context.Products.FirstOrDefault(p => p.Title.ToLower() == model.Title.ToLower());
-            //if (product is not null)
-            //{
-            //    ModelState.AddModelError("Title", "Already Exists");
-            //    return View(model);
-            //}
             var category = _context.Categories.Find(model.CategoryId);
             if (category is null)
             {
@@ -77,22 +72,18 @@ namespace ZayShop.Areas.Admin.Controllers
                 ModelState.AddModelError("Photo","cant be null");
                 return View(model);
             }
-            if ( !model.Photo.ContentType.Contains("image/"))
+
+            if (!_fileService.IsImage(model.Photo.ContentType))
             {
                 ModelState.AddModelError("Photo","wrong format");
                 return View(model);
             }
-            if (model.Photo.Length/1024>250)
+            if (!_fileService.IsAvailableSize(model.Photo.Length))
             {
                 ModelState.AddModelError("Photo","Limit overed");
                 return View(model);
             }
-            var photoName = $"{Guid.NewGuid()}_{model.Photo.FileName}";
-           var photoPath= Path.Combine(_webHostEnvironment.WebRootPath,"StaticFiles/assets/img",photoName);
-            using (var fileStream=new FileStream(photoPath,FileMode.Create,FileAccess.ReadWrite))
-            {
-               model.Photo.CopyTo(fileStream);
-            }
+            var photoName = _fileService.Upload(model.Photo, "StaticFiles/assets/img");
 
             //created product
             var product = new Entities.Product
@@ -119,7 +110,7 @@ namespace ZayShop.Areas.Admin.Controllers
             if (product is null) return NotFound();
             _context.Products.Remove(product);
             _context.SaveChanges();
-         
+            _fileService.Delete("StaticFiles/assets/img",product.PhotoName);  
             return RedirectToAction(nameof(Index));
         }
 		#endregion
@@ -160,12 +151,7 @@ namespace ZayShop.Areas.Admin.Controllers
 
             var product = _context.Products.Find(id);
             if (product is null) return NotFound();
-            //var existProduct=_context.Products.Any(p => p.Title == model.Title &&p.Id!=product.Id);
-            //if (existProduct)
-            //{
-            //    ModelState.AddModelError("Title", "Already exists");
-            //    return View(model);
-            //}
+
             var category=_context.Categories.Find(model.CategoryId);
             if (category is null)
             {
@@ -179,29 +165,21 @@ namespace ZayShop.Areas.Admin.Controllers
 
             if (model.Photo is not null)
             {
-                if (!model.Photo.ContentType.Contains("image/"))
+                if (!_fileService.IsImage(model.Photo.ContentType))
                 {
                     ModelState.AddModelError("Photo","Wrong format");
                     return View(model);
                 }
-                if (model.Photo.Length/1024>250)
+                if (!_fileService.IsAvailableSize(model.Photo.Length))
                 {
                     ModelState.AddModelError("Photo","Limit overed");
                     return View(model);
                 }
+                // old photo deleting
+                _fileService.Delete("StaticFiles/assets/img",product.PhotoName);           
 
-                var filePath = $"{_webHostEnvironment.WebRootPath}/StaticFiles/assets/img/{product.PhotoName}";
-                if (System.IO.File.Exists(filePath))
-                {
-                    System.IO.File.Delete(filePath);
-                }
-
-                var photoName = $"{Guid.NewGuid()}_{model.Photo.FileName}";
-                var photoPath = Path.Combine(_webHostEnvironment.WebRootPath,"StaticFiles/assets/img",photoName);
-                using (var filestream = new FileStream(photoPath,FileMode.Create,FileAccess.ReadWrite))
-                {
-                   model.Photo.CopyTo(filestream);
-                }
+                //new photo adding
+                var photoName = _fileService.Upload(model.Photo, "StaticFiles/assets/img");                
                 product.PhotoName = photoName;
             }
 
