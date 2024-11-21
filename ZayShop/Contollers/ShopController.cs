@@ -35,7 +35,7 @@ namespace ZayShop.Contollers
                 var productVM = new ProductVM
                 {
                     Title = product.Title,
-                    PhotoPath = product.PhotoPath,
+                    PhotoName = product.PhotoName,
                     Size = product.Size,
                     Price = product.Price
                 };

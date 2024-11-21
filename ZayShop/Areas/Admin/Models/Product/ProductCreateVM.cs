@@ -10,9 +10,12 @@ namespace ZayShop.Areas.Admin.Models.Product
 		public string Title { get; set; }
 
 
-		[Required(ErrorMessage = "Please enter Photo path")]
-		[MinLength(5, ErrorMessage = "Please enter minimum 5 character")]
-		public string PhotoPath { get; set; }
+		//[Required(ErrorMessage = "Please enter Photo path")]
+		//[MinLength(5, ErrorMessage = "Please enter minimum 5 character")]
+		//public string PhotoPath { get; set; }
+
+		[Required(ErrorMessage ="choose photo")]
+		public IFormFile Photo { get; set; }
 
 		[Required(ErrorMessage = "Please enter Sizes")]
 		[MinLength(1, ErrorMessage = "Please enter minimum 1 character")]

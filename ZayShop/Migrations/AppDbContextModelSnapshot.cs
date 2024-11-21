@@ -62,7 +62,7 @@ namespace ZayShop.Migrations
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PhotoPath")
+                    b.Property<string>("PhotoName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

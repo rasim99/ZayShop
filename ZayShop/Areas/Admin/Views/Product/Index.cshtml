@@ -19,7 +19,7 @@
 			  @foreach (var product in Model.Products)
 				{
 					<tr>
-					<td class="text-gray-500 w-25"><img style="width:50%; transform:translateX(80px); height:100px; border-radius:5px; object-fit:cover" src="@product.PhotoPath" title="Photo" /></td>
+					<td class="text-gray-500 w-25"><img style="width:50%; transform:translateX(80px); height:100px; border-radius:5px; object-fit:cover" src="/StaticFiles/assets/img/@product.PhotoName" title="Photo" /></td>
 					<td class="text-gray-500">@product.Title</td>
 					<td class="text-gray-500">@product.Size</td>
 					<td class="text-gray-500">$@product.Price</td>

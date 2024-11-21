@@ -10,9 +10,9 @@ namespace ZayShop.Areas.Admin.Models.Product
 		public string Title { get; set; }
 
 
-		[Required(ErrorMessage = "Please enter Photo path")]
-		[MinLength(5, ErrorMessage = "Please enter minimum 5 character")]
-		public string PhotoPath { get; set; }
+		//[Required(ErrorMessage = "Please enter Photo path")]
+		//[MinLength(5, ErrorMessage = "Please enter minimum 5 character")]
+		//public string PhotoPath { get; set; }
 
 		[Required(ErrorMessage = "Please enter Sizes")]
 		[MinLength(1, ErrorMessage = "Please enter minimum 1 character")]
@@ -22,7 +22,11 @@ namespace ZayShop.Areas.Admin.Models.Product
 		[Range(20, 2000, ErrorMessage = "Range is 20 => 2000")]
 		public decimal Price { get; set; }
 
-		[Required(ErrorMessage = "Please choose Category")]
+        public string? PhotoName { get; set; }
+
+        public IFormFile? Photo { get; set; }
+
+        [Required(ErrorMessage = "Please choose Category")]
 		[Display(Name = "Category ")]
 		public int CategoryId { get; set; }
 		public List<SelectListItem>? Categories { get; set; }

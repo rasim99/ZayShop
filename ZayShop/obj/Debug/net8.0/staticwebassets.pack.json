@@ -7365,6 +7365,38 @@
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\templatemo.min.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\05b3ef33-e471-4323-8420-1e93bac34441_shop_09.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\05b3ef33-e471-4323-8420-1e93bac34441_shop_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\299ba694-a317-4551-8509-a657b81c1bc9_shop_06.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\299ba694-a317-4551-8509-a657b81c1bc9_shop_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\3ad987f7-0a39-467f-8cb1-52fcbd8963c2_shop_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\3ad987f7-0a39-467f-8cb1-52fcbd8963c2_shop_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\3d04bdd5-515f-4a70-9e1d-10f3f4452f8f_shop_07.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\3d04bdd5-515f-4a70-9e1d-10f3f4452f8f_shop_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\3d4d1450-acc3-4f49-af15-3a6c2a90c93e_shop_04.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\3d4d1450-acc3-4f49-af15-3a6c2a90c93e_shop_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\50c31798-e28e-4a9d-a914-0b44bc625607_shop_07.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\50c31798-e28e-4a9d-a914-0b44bc625607_shop_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\6583aaad-a9fb-4dbb-8a4e-8051d146cf2d_shop_08.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\6583aaad-a9fb-4dbb-8a4e-8051d146cf2d_shop_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\82a8d006-892a-4fa7-bb24-9b7a5d9b8f91_shop_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\82a8d006-892a-4fa7-bb24-9b7a5d9b8f91_shop_03.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\about-hero.svg",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\about-hero.svg"
     },
@@ -7415,6 +7447,10 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\category_img_03.jpg",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\category_img_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\eb1a1f38-56d6-4b67-b0e2-9ac1f0f2b236_shop_05.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\eb1a1f38-56d6-4b67-b0e2-9ac1f0f2b236_shop_05.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\favicon.ico",
@@ -7471,50 +7507,6 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\product_single_10.jpg",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_10.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_01.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_02.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_03.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_04.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_04.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_05.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_05.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_06.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_06.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_07.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_07.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_08.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_08.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_09.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_09.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_10.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_10.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\img\\shop_11.jpg",
-      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\shop_11.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\js\\bootstrap.bundle.min.js",
@@ -7619,6 +7611,10 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\wwwroot\\StaticFiles\\assets\\webfonts\\slick.woff",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\slick.woff"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ZayShop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ZayShop.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 ﻿@using ZayShop.Areas.Admin.Models.Product
 @model ProductCreateVM
-<form class="w-75 ml-4" asp-controller="Product" asp-action="Create" method="post">
+<form enctype="multipart/form-data"  class="w-75 ml-4" asp-controller="Product" asp-action="Create" method="post">
 
 		<div class="form-group">
 			<label asp-for="Title"></label>
@@ -9,10 +9,15 @@
 		</div>
 
 		<div class="form-group">
+			<label asp-for="Photo"></label>
+			<input asp-for="Photo" class="form-control" placeholder="choose photo" />
+			<span class="text-danger" asp-validation-for="Photo"></span>
+		</div>
+		@* 		<div class="form-group">
 			<label asp-for="PhotoPath"></label>
 			<input asp-for="PhotoPath" class="form-control" placeholder="Enter Path" />
 			<span class="text-danger" asp-validation-for="PhotoPath"></span>
-		</div>
+		</div> *@
 
 		<div class="form-group">
 			<label asp-for="Size"></label>
