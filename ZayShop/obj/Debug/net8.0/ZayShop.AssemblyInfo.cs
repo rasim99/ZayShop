@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZayShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea01c2a86e3ef4e140a2c0d41f4c8fc58bca658")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8817a04c59f2cdcb855e003ea72306ff59fae6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZayShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZayShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
