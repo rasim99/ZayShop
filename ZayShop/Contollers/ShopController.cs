@@ -25,6 +25,7 @@ namespace ZayShop.Contollers
             {
                 var categoryVM = new CategoryVM
                 {
+                    Id = category.Id,
                     Name = category.Name
                 };
                 categoriesList.Add(categoryVM);
@@ -44,7 +45,13 @@ namespace ZayShop.Contollers
             var model=new ShopIndexVM { Categories = categoriesList,Products=productsList};
             return View(model);
         }
-
+        public IActionResult GetProducts(int categoryId)
+        {
+            
+            var products = _context.Products.ToList();
+            if (categoryId > 0) products=_context.Products.Where(p=>p.CategoryId==categoryId).ToList();
+            return PartialView("_ProductPartial", products);
+        }
         public IActionResult Details(int id)
         {
             return View();

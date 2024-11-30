@@ -1861,6 +1861,7 @@ wwwroot\StaticFiles\assets\img\brand_04.png
 wwwroot\StaticFiles\assets\img\category_img_01.jpg
 wwwroot\StaticFiles\assets\img\category_img_02.jpg
 wwwroot\StaticFiles\assets\img\category_img_03.jpg
+wwwroot\StaticFiles\assets\img\f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg
 wwwroot\StaticFiles\assets\img\favicon.ico
 wwwroot\StaticFiles\assets\img\feature_prod_01.jpg
 wwwroot\StaticFiles\assets\img\feature_prod_02.jpg
@@ -1879,6 +1880,7 @@ wwwroot\StaticFiles\assets\js\bootstrap.bundle.min.js
 wwwroot\StaticFiles\assets\js\custom.js
 wwwroot\StaticFiles\assets\js\jquery-1.11.0.min.js
 wwwroot\StaticFiles\assets\js\jquery-migrate-1.2.1.min.js
+wwwroot\StaticFiles\assets\js\Shop.js
 wwwroot\StaticFiles\assets\js\slick.min.js
 wwwroot\StaticFiles\assets\js\templatemo.js
 wwwroot\StaticFiles\assets\js\templatemo.min.js

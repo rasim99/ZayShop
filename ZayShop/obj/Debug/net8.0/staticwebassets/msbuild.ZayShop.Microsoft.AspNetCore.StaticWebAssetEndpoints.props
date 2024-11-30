@@ -22356,6 +22356,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qq1j4dqhrw"},{"Name":"integrity","Value":"sha256-kkdD66BQUg41o9xYxpT\u002B72VUYA/QTb71kyDx4Oo2gHs="},{"Name":"label","Value":"_content/ZayShop/StaticFiles/assets/img/category_img_03.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"154420"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kkdD66BQUg41o9xYxpT\u002B72VUYA/QTb71kyDx4Oo2gHs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 02 Nov 2024 15:01:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZayShop/StaticFiles/assets/img/f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.at2ppp2dly.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"at2ppp2dly"},{"Name":"integrity","Value":"sha256-fvdwEOjMgMc2vSNtPLuPfGIkgad\u002BtBxnh4KXowGfzM4="},{"Name":"label","Value":"_content/ZayShop/StaticFiles/assets/img/f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"166339"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fvdwEOjMgMc2vSNtPLuPfGIkgad\u002BtBxnh4KXowGfzM4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 28 Nov 2024 20:15:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZayShop/StaticFiles/assets/img/f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fvdwEOjMgMc2vSNtPLuPfGIkgad\u002BtBxnh4KXowGfzM4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"166339"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fvdwEOjMgMc2vSNtPLuPfGIkgad\u002BtBxnh4KXowGfzM4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 28 Nov 2024 20:15:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ZayShop/StaticFiles/assets/img/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\img\favicon.ico'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22571,6 +22583,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q6ne85ne1u"},{"Name":"integrity","Value":"sha256-HmfY28yh9v2U4HfIXC\u002B0D6HCdWyZI42qjaiCFEJgpo0="},{"Name":"label","Value":"_content/ZayShop/StaticFiles/assets/js/jquery-migrate-1.2.1.min.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7199"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HmfY28yh9v2U4HfIXC\u002B0D6HCdWyZI42qjaiCFEJgpo0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 02 Nov 2024 15:01:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZayShop/StaticFiles/assets/js/Shop.83gq0pvpox.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\js\Shop.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"83gq0pvpox"},{"Name":"integrity","Value":"sha256-DPj/2\u002BfXZL202cToyCMxOaNDECm1pMt56XkqBKEJXBI="},{"Name":"label","Value":"_content/ZayShop/StaticFiles/assets/js/Shop.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DPj/2\u002BfXZL202cToyCMxOaNDECm1pMt56XkqBKEJXBI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 Nov 2024 16:31:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZayShop/StaticFiles/assets/js/Shop.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\js\Shop.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DPj/2\u002BfXZL202cToyCMxOaNDECm1pMt56XkqBKEJXBI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DPj/2\u002BfXZL202cToyCMxOaNDECm1pMt56XkqBKEJXBI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 Nov 2024 16:31:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ZayShop/StaticFiles/assets/js/slick.min.8vxybdbzmv.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\assets\js\slick.min.js'))</AssetFile>
