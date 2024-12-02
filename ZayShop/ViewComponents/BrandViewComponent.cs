@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZayShop.Data;
+using ZayShop.Models.Brand;
 
 namespace ZayShop.ViewComponents
 {
@@ -15,8 +16,12 @@ namespace ZayShop.ViewComponents
 
         public IViewComponentResult Invoke()
         {
-            var brands = _context.Brand.Include(c=>c.Photos).ToList();
-            return View(brands);
+            var model = new BrandViewComponentVM
+            {
+              Photos=_context.BrandPhotos.ToList(),
+              Brand=_context.Brand.FirstOrDefault()
+            };
+            return View(model);
         }
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\views\\shared\\components\\brand\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\views\\shared\\components\\brand\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\contollers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\contollers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\models\\brand\\brandviewcomponentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\models\\brand\\brandviewcomponentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\views\\shared\\components\\brand\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|solutionrelative:zayshop\\views\\shared\\components\\brand\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBFFBC54-A83A-4C5A-9638-5E09F4C43671}|ZayShop\\ZayShop.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\zayshop\\zayshop\\viewcomponents\\brandviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,43 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "ZayShop\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "ZayShop\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAIYAAAAAAAAAAAD4v5EAAAAjAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Shop\\Index.cshtml*",
+              "RelativeToolTip": "ZayShop\\Views\\Shop\\Index.cshtml*",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T19:43:59.988Z",
+              "WhenOpened": "2024-12-02T08:06:47.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrandViewComponentVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Models\\Brand\\BrandViewComponentVM.cs",
+              "RelativeDocumentMoniker": "ZayShop\\Models\\Brand\\BrandViewComponentVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Models\\Brand\\BrandViewComponentVM.cs",
+              "RelativeToolTip": "ZayShop\\Models\\Brand\\BrandViewComponentVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T07:53:45.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Contollers\\ShopController.cs",
-              "RelativeDocumentMoniker": "ZayShop\\Contollers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Contollers\\ShopController.cs",
-              "RelativeToolTip": "ZayShop\\Contollers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T19:43:52.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Shared\\Components\\Brand\\Default.cshtml",
               "RelativeDocumentMoniker": "ZayShop\\Views\\Shared\\Components\\Brand\\Default.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Shared\\Components\\Brand\\Default.cshtml",
-              "RelativeToolTip": "ZayShop\\Views\\Shared\\Components\\Brand\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\Views\\Shared\\Components\\Brand\\Default.cshtml*",
+              "RelativeToolTip": "ZayShop\\Views\\Shared\\Components\\Brand\\Default.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T19:43:34.38Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "ZayShop\\ViewComponents\\BrandViewComponent.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\ZayShop\\ZayShop\\ViewComponents\\BrandViewComponent.cs",
               "RelativeToolTip": "ZayShop\\ViewComponents\\BrandViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T19:38:13.327Z",
               "EditorCaption": ""
