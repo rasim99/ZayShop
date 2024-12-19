@@ -158,6 +158,8 @@ namespace ZayShop.Areas.Admin.Controllers
                 ModelState.AddModelError("Title","Not Found Category");
                 return View(model);
             }
+            if (!ModelState.IsValid) return View(model);
+ 
             product.Title = model.Title;
             product.Size = model.Size;
             product.Price = model.Price;
